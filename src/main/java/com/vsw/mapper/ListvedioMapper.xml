@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vsw.mapper.ListvedioMapper">
+  <resultMap id="BaseResultMap" type="com.vsw.domain.Listvedio">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="LISTVEDIOID" jdbcType="INTEGER" property="listvedioid" />
+    <result column="LISTID" jdbcType="INTEGER" property="listid" />
+    <result column="VEDIOID" jdbcType="INTEGER" property="vedioid" />
+    <result column="VEDIONAME" jdbcType="VARCHAR" property="vedioname" />
+    <result column="VEDIOPICTURE" jdbcType="VARCHAR" property="vediopicture" />
+    <result column="UPDTIME" jdbcType="VARCHAR" property="updtime" />
+    <result column="ISVIEW" jdbcType="INTEGER" property="isview" />
+    <result column="CATEGROY" jdbcType="VARCHAR" property="categroy" />
+    <result column="NOWEPISODE" jdbcType="INTEGER" property="nowepisode" />
+    <result column="ISOVER" jdbcType="INTEGER" property="isover" />
+    <result column="ISSUB" jdbcType="INTEGER" property="issub" />
+  </resultMap>
+</mapper>

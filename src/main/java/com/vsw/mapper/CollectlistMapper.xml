@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vsw.mapper.CollectlistMapper">
+  <resultMap id="BaseResultMap" type="com.vsw.domain.Collectlist">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="COLLECTID" jdbcType="INTEGER" property="collectid" />
+    <result column="LISTID" jdbcType="INTEGER" property="listid" />
+    <result column="USERID" jdbcType="INTEGER" property="userid" />
+    <result column="COLLECTNUM" jdbcType="INTEGER" property="collectnum" />
+  </resultMap>
+</mapper>

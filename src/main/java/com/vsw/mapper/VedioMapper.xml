@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vsw.mapper.VedioMapper">
+  <resultMap id="BaseResultMap" type="com.vsw.domain.Vedio">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="VEDIOID" jdbcType="INTEGER" property="vedioid" />
+    <result column="UPDTIME" jdbcType="VARCHAR" property="updtime" />
+    <result column="PICTURE" jdbcType="VARCHAR" property="picture" />
+    <result column="SUBNAME" jdbcType="VARCHAR" property="subname" />
+    <result column="CATAGORY" jdbcType="VARCHAR" property="catagory" />
+    <result column="REGION" jdbcType="VARCHAR" property="region" />
+    <result column="TYPE" jdbcType="VARCHAR" property="type" />
+    <result column="EPISODE" jdbcType="INTEGER" property="episode" />
+    <result column="NOWEPISODE" jdbcType="INTEGER" property="nowepisode" />
+    <result column="ISOVER" jdbcType="INTEGER" property="isover" />
+    <result column="TIME" jdbcType="VARCHAR" property="time" />
+    <result column="LATESTUPD" jdbcType="DATE" property="latestupd" />
+    <result column="ISNEW" jdbcType="INTEGER" property="isnew" />
+    <result column="SUBCRIBECOUNT" jdbcType="INTEGER" property="subcribecount" />
+    <result column="VEDIONAME" jdbcType="VARCHAR" property="vedioname" />
+    <result column="DIRECTOR" jdbcType="VARCHAR" property="director" />
+    <result column="ACTOR" jdbcType="VARCHAR" property="actor" />
+    <result column="ISVIEW" jdbcType="INTEGER" property="isview" />
+    <result column="SUMMARY" jdbcType="LONGVARCHAR" property="summary" />
+  </resultMap>
+
+
+    <!--&amp;amp;amp;amp;lt;select id="findAllByNameLike" parameterType="java.lang.String" resultMap="BaseResultMap"&amp;amp;amp;amp;gt;-->
+       <!--select * from VEDIO where VEDIO_NAME like #{fuzzyWord}-->
+    <!--&amp;amp;amp;amp;lt;/select&amp;amp;amp;amp;gt;-->
+
+
+</mapper>

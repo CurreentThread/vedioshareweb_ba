@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vsw.mapper.SlotMapper">
+  <resultMap id="BaseResultMap" type="com.vsw.domain.Slot">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="SLOTSID" jdbcType="INTEGER" property="slotsid" />
+    <result column="OPRATENAME" jdbcType="VARCHAR" property="opratename" />
+    <result column="VEDIOID" jdbcType="INTEGER" property="vedioid" />
+    <result column="VEDIONAME" jdbcType="VARCHAR" property="vedioname" />
+    <result column="LISTID" jdbcType="INTEGER" property="listid" />
+    <result column="LISTNAME" jdbcType="VARCHAR" property="listname" />
+    <result column="OPRATETIME" jdbcType="VARCHAR" property="opratetime" />
+    <result column="OPRATEDAY" jdbcType="VARCHAR" property="oprateday" />
+    <result column="USERID" jdbcType="INTEGER" property="userid" />
+  </resultMap>
+</mapper>

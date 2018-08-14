@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vsw.mapper.HistoryMapper">
+  <resultMap id="BaseResultMap" type="com.vsw.domain.History">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HISTORYID" jdbcType="INTEGER" property="historyid" />
+    <result column="VEDIOID" jdbcType="INTEGER" property="vedioid" />
+    <result column="VEDIONAME" jdbcType="VARCHAR" property="vedioname" />
+    <result column="ISVIEW" jdbcType="INTEGER" property="isview" />
+    <result column="USERID" jdbcType="INTEGER" property="userid" />
+    <result column="ISSUB" jdbcType="INTEGER" property="issub" />
+    <result column="HISTORYD" jdbcType="VARCHAR" property="historyd" />
+  </resultMap>
+</mapper>

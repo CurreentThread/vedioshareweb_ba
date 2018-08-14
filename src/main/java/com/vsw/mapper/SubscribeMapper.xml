@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vsw.mapper.SubscribeMapper">
+  <resultMap id="BaseResultMap" type="com.vsw.domain.Subscribe">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="SUBID" jdbcType="INTEGER" property="subid" />
+    <result column="USERID" jdbcType="INTEGER" property="userid" />
+    <result column="VEDIOID" jdbcType="INTEGER" property="vedioid" />
+    <result column="PICTURE" jdbcType="VARCHAR" property="picture" />
+    <result column="VEDIONAME" jdbcType="VARCHAR" property="vedioname" />
+    <result column="UPDTIME" jdbcType="VARCHAR" property="updtime" />
+    <result column="NOWEPISODE" jdbcType="INTEGER" property="nowepisode" />
+    <result column="ISVIEW" jdbcType="INTEGER" property="isview" />
+    <result column="CATEGORY" jdbcType="VARCHAR" property="category" />
+    <result column="ISSUBS" jdbcType="INTEGER" property="issubs" />
+    <result column="ISNEW" jdbcType="INTEGER" property="isnew" />
+  </resultMap>
+</mapper>

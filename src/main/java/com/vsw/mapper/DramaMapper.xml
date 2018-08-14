@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vsw.mapper.DramaMapper">
+  <resultMap id="BaseResultMap" type="com.vsw.domain.Drama">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="SUBVEDIOID" jdbcType="INTEGER" property="subvedioid" />
+    <result column="VEDIOID" jdbcType="INTEGER" property="vedioid" />
+    <result column="VEDIOLINK" jdbcType="VARCHAR" property="vediolink" />
+    <result column="EPISODENUM" jdbcType="INTEGER" property="episodenum" />
+    <result column="SUBVEDIONAME" jdbcType="VARCHAR" property="subvedioname" />
+    <result column="UPDTIME" jdbcType="VARCHAR" property="updtime" />
+    <result column="FROMWHERE" jdbcType="VARCHAR" property="fromwhere" />
+    <result column="ISWATCHED" jdbcType="INTEGER" property="iswatched" />
+    <result column="WATCHTIME" jdbcType="VARCHAR" property="watchtime" />
+  </resultMap>
+</mapper>

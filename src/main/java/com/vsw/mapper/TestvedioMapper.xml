@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vsw.mapper.TestvedioMapper">
+  <resultMap id="BaseResultMap" type="com.vsw.domain.Testvedio">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="VEDIOID" jdbcType="INTEGER" property="vedioid" />
+    <result column="UPDTIME" jdbcType="VARCHAR" property="updtime" />
+    <result column="PICTURE" jdbcType="VARCHAR" property="picture" />
+    <result column="SUBNAME" jdbcType="VARCHAR" property="subname" />
+    <result column="CATAGORY" jdbcType="VARCHAR" property="catagory" />
+    <result column="REGION" jdbcType="VARCHAR" property="region" />
+    <result column="TYPE" jdbcType="VARCHAR" property="type" />
+    <result column="EPISODE" jdbcType="INTEGER" property="episode" />
+    <result column="NOWEPISODE" jdbcType="INTEGER" property="nowepisode" />
+    <result column="ISOVER" jdbcType="INTEGER" property="isover" />
+    <result column="TIME" jdbcType="VARCHAR" property="time" />
+    <result column="LATESTUPD" jdbcType="VARCHAR" property="latestupd" />
+    <result column="ISNEW" jdbcType="INTEGER" property="isnew" />
+    <result column="SUBCRIBECOUNT" jdbcType="INTEGER" property="subcribecount" />
+    <result column="VEDIONAME" jdbcType="VARCHAR" property="vedioname" />
+    <result column="DIRECTOR" jdbcType="VARCHAR" property="director" />
+    <result column="ACTOR" jdbcType="VARCHAR" property="actor" />
+    <result column="ISVIEW" jdbcType="INTEGER" property="isview" />
+    <result column="SCORE" jdbcType="VARCHAR" property="score" />
+    <result column="SUMMARY" jdbcType="LONGVARCHAR" property="summary" />
+  </resultMap>
+</mapper>
